@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /Users/felixfeng/CLionProjects/professional_c_plus/cmake-buil
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/untitled.dir/all
+all: CMakeFiles/professional_c_plus.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/untitled.dir/clean
+clean: CMakeFiles/professional_c_plus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled.dir
+# Target rules for target CMakeFiles/professional_c_plus.dir
 
 # All Build rule for target.
-CMakeFiles/untitled.dir/all:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/felixfeng/CLionProjects/professional_c_plus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target untitled"
-.PHONY : CMakeFiles/untitled.dir/all
+CMakeFiles/professional_c_plus.dir/all:
+	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/depend
+	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/felixfeng/CLionProjects/professional_c_plus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target professional_c_plus"
+.PHONY : CMakeFiles/professional_c_plus.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled.dir/rule: cmake_check_build_system
+CMakeFiles/professional_c_plus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/felixfeng/CLionProjects/professional_c_plus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/untitled.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/professional_c_plus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/felixfeng/CLionProjects/professional_c_plus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled.dir/rule
+.PHONY : CMakeFiles/professional_c_plus.dir/rule
 
 # Convenience name for target.
-untitled: CMakeFiles/untitled.dir/rule
+professional_c_plus: CMakeFiles/professional_c_plus.dir/rule
 
-.PHONY : untitled
+.PHONY : professional_c_plus
 
 # clean rule for target.
-CMakeFiles/untitled.dir/clean:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/clean
-.PHONY : CMakeFiles/untitled.dir/clean
+CMakeFiles/professional_c_plus.dir/clean:
+	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/clean
+.PHONY : CMakeFiles/professional_c_plus.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
