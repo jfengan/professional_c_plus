@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/professional_c_plus.dir/main.cpp.o CMakeFiles/professional_c_plus.dir/ch7/delete_simple.cpp.o  -o professional_c_plus 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/professional_c_plus.dir/ch7/delete_simple.cpp.o  -o professional_c_plus 

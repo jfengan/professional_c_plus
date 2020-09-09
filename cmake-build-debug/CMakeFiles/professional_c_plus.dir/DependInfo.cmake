@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/felixfeng/CLionProjects/professional_c_plus/ch7/delete_simple.cpp" "/Users/felixfeng/CLionProjects/professional_c_plus/cmake-build-debug/CMakeFiles/professional_c_plus.dir/ch7/delete_simple.cpp.o"
-  "/Users/felixfeng/CLionProjects/professional_c_plus/main.cpp" "/Users/felixfeng/CLionProjects/professional_c_plus/cmake-build-debug/CMakeFiles/professional_c_plus.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

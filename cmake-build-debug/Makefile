@@ -150,33 +150,6 @@ ch7/delete_simple.cpp.s:
 	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/ch7/delete_simple.cpp.s
 .PHONY : ch7/delete_simple.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +162,6 @@ help:
 	@echo "... ch7/delete_simple.o"
 	@echo "... ch7/delete_simple.i"
 	@echo "... ch7/delete_simple.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

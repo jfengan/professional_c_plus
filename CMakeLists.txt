@@ -3,4 +3,4 @@ project(professional_c_plus)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(professional_c_plus main.cpp ch7/delete_simple.cpp)
+add_executable(professional_c_plus ch7/delete_simple.cpp)

@@ -83,9 +83,6 @@
 		<Unit filename="/Users/felixfeng/CLionProjects/professional_c_plus/ch7/delete_simple.cpp">
 			<Option target="professional_c_plus"/>
 		</Unit>
-		<Unit filename="/Users/felixfeng/CLionProjects/professional_c_plus/main.cpp">
-			<Option target="professional_c_plus"/>
-		</Unit>
 		<Unit filename="/Users/felixfeng/CLionProjects/professional_c_plus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
