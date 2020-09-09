@@ -123,6 +123,33 @@ professional_c_plus/fast:
 	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/build
 .PHONY : professional_c_plus/fast
 
+ch7/delete_simple.o: ch7/delete_simple.cpp.o
+
+.PHONY : ch7/delete_simple.o
+
+# target to build an object file
+ch7/delete_simple.cpp.o:
+	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/ch7/delete_simple.cpp.o
+.PHONY : ch7/delete_simple.cpp.o
+
+ch7/delete_simple.i: ch7/delete_simple.cpp.i
+
+.PHONY : ch7/delete_simple.i
+
+# target to preprocess a source file
+ch7/delete_simple.cpp.i:
+	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/ch7/delete_simple.cpp.i
+.PHONY : ch7/delete_simple.cpp.i
+
+ch7/delete_simple.s: ch7/delete_simple.cpp.s
+
+.PHONY : ch7/delete_simple.s
+
+# target to generate assembly for a file
+ch7/delete_simple.cpp.s:
+	$(MAKE) -f CMakeFiles/professional_c_plus.dir/build.make CMakeFiles/professional_c_plus.dir/ch7/delete_simple.cpp.s
+.PHONY : ch7/delete_simple.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... professional_c_plus"
+	@echo "... ch7/delete_simple.o"
+	@echo "... ch7/delete_simple.i"
+	@echo "... ch7/delete_simple.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
